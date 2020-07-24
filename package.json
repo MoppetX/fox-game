@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/MoppetX/fox-game/issues"
   },
-  "homepage": "https://github.com/MoppetX/fox-game#readme"
+  "homepage": "https://github.com/MoppetX/fox-game#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.1.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5"
+  }
 }
