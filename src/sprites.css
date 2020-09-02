@@ -1,6 +1,6 @@
 .btn {
   background-image: url(bg/BUTTONS/NotSelected.png);
-  background-position: 0px;
+  background-position: 0;
   width: 62px;
   height: 65px;
   overflow: hidden;
@@ -11,11 +11,11 @@
 }
 
 .btn.middle-btn {
-  background-position: -84px 0px;
+  background-position: -84px 0;
 }
 
 .btn.right-btn {
-  background-position: -167px 0px;
+  background-position: -167px 0;
 }
 
 .btn:hover,
