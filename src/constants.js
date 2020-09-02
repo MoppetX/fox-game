@@ -14,27 +14,29 @@ export const getNextPoopTime = (clock) =>
   Math.floor(Math.random() * 3) + 4 + clock;
 
 export const STATES = {
-  INIT: 'INIT',
-  IDLING: 'IDLING',
-  SLEEP: 'SLEEP',
-  FEEDING: 'FEEDING',
-  HUNGRY: 'HUNGRY',
   CELEBRATING: 'CELEBRATING',
-  HATCHING: 'HATCHING',
   DEAD: 'DEAD',
+  FEEDING: 'FEEDING',
+  HATCHING: 'HATCHING',
+  HUNGRY: 'HUNGRY',
+  IDLING: 'IDLING',
+  INIT: 'INIT',
+  SLEEP: 'SLEEP',
 };
 export const SCENES = ['day', 'rain'];
 
 export const SCENE = {
   DAY: 'day',
-  RAIN: 'rain',
   NIGHT: 'night',
+  RAIN: 'rain',
 };
 
 export const FOX_STATE = {
-  EGG: 'egg',
-  IDLING: 'idling',
-  SLEEP: 'sleep',
-  HUNGRY: 'hungry',
+  CELEBRATE: 'celebrate',
   EATING: 'eating',
+  EGG: 'egg',
+  HUNGRY: 'hungry',
+  IDLING: 'idling',
+  RAIN: 'rain',
+  SLEEP: 'sleep',
 };
