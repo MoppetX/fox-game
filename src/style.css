@@ -48,10 +48,12 @@ body {
   left: 67px;
 }
 
-.game-night {
-  width: 716px;
-  top: 62px;
-  left: -19px;
+.game.night {
+  width: 100%;
+  height: 100%;
+  /*position: absolute;*/
+  /*top: 62px;*/
+  left: -15px;
 }
 
 /* buttons */
@@ -85,7 +87,7 @@ body {
   left: 160px;
 }
 
-.modal {
+.modal-inner {
   position: absolute;
   top: 0;
   left: 0;
